@@ -4,4 +4,4 @@ RUN apt-get install -y python python-setuptools python-dev build-essential pytho
 
 RUN apt-get install -y mysql-server mysql-client
 
-RUN service mysql start
+ENTRYPOINT service mysql start
